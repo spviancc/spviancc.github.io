@@ -1,8 +1,8 @@
 ---
-
-title: Windows Subsystem for Linux
-
-tags: Linux
+legout: post
+title: Windows下创建子系统
+categories: 文章
+tags: 教程
 
 ---
 
