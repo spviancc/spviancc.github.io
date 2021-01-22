@@ -17,7 +17,7 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 这里提供了压缩包，压缩包中有 TortoiseGit 安装包和它的中文语言安装包 TortoiseGit-LanguagePack
 
-点击 [下载](https://spvian.lanzous.com/iucnnkphloh)
+点击[下载](https://spvian.lanzous.com/iucnnkphloh)
 
 
 
@@ -43,13 +43,13 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 ![image-20210122223349598](https://i.loli.net/2021/01/22/DiLSZBC67pIMw9G.png)
 
-![image-20210122223547883](C:\Users\97797\AppData\Roaming\Typora\typora-user-images\image-20210122223547883.png)
+![image-20210122223547883](https://i.loli.net/2021/01/22/TkWj4ozHp8Jm5I6.png)
 
 ### 配置
 
 
 
-####基本配置
+#### 基本配置
 
 我是因为之前有用密钥使用过 git， 所以这里没有配置密码 
 
