@@ -389,7 +389,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    主题来自jekyll-theme-WuK
+                    jekyll-theme-WuK
                   </a>
                 </div>
               - | # Copyright声明
