@@ -1,6 +1,6 @@
 ---
-title: 初次Spring Boot
-tages: Spring Boot
+title: 初试 Spring Boot
+tages: SpringBoot
 ---
 
 
