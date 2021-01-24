@@ -1,6 +1,6 @@
 ---
 title: 初试 Spring Boot
-tags: Spring Boot
+tags: SpringBoot
 ---
 
 
