@@ -7,13 +7,13 @@ tags: SpringBoot
 
 Spring Boot 在启动时会有一个默认的启动图案，我们可以更改这个图案。图案可以在 [ASCII Generator](http://www.network-science.de/ascii/)  生成，不支持中文。
 
-![image-20210125015123462](G:\my_java\项目\spviancc\spviancc.github.io\assets\image-20210125015123462.png)
+![image-20210125015123462](assets/image-20210125015123462.png)
 
 
 
 生成自己的Banner后，在 `src/main/resource` 下新建 banner.txt 文件，文件中放入我们生成的图案，启动项目就可以看到了我们自己的图案了。
 
-![image-20210125015832395](G:\my_java\项目\spviancc\spviancc.github.io\assets\image-20210125015832395.png)
+![image-20210125015832395](assets/image-20210125015832395.png)
 
 
 
@@ -103,7 +103,7 @@ public class IndexController {
 }
 ```
 
-![image-20210125024956146](G:\my_java\项目\spviancc\spviancc.github.io\assets\image-20210125024956146.png)
+![image-20210125024956146]( assets /image-20210125024956146.png)
 
 
 
