@@ -223,7 +223,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
-                href: /home/
+                href: /archive/
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
               - title: '<i class="fas fa-comments fa-fw"></i> 留言'
@@ -582,7 +582,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
             enable: false
-        home:
+        archive:
           group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
             enable: true # 博文数量统计
@@ -601,8 +601,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
                 async='async'
                 charset='utf-8'
-                homePageUrl='/'
-                homePageName='回到我的主页'
+                homePageUrl='/archive/'
+                homePageName='回到我的首页'
               ></script>
 
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
