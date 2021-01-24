@@ -1,6 +1,6 @@
 ---
 title: Spring Boot 基础配置
-tages: SpringBoot
+tags: SpringBoot
 ---
 
 ## 定制Banner
