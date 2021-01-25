@@ -142,7 +142,7 @@ public class Stu implements Serializable {
 
 我这里使用 myabit 的注解来实现，也可以使用 xml 的方式来配置。更多注解的使用看以去 [官网](https://mybatis.org/mybatis-3/zh/java-api.html) 查看
 
-![image-20210126015708402](G:\images\image-20210126015708402.png)
+![image-20210126015708402](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126015708402.png)
 
 ```java
 import org.apache.ibatis.annotations.Mapper;
