@@ -34,7 +34,7 @@ public static void main(String[] args) {
 
 在 `src/main/resources` 目录下，Spring Boot 提供了一个名为 application.properties 的全局配置文件，可对一些默认配置的配置值进行修改，英语好的可以点击 [这里](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html) 去官网查看相关的配置。
 
-除了默认配置，我们还可以定义自己的配置值。
+除了默认配置，我们还可以定义自己的配置值。   
 
 
 
@@ -49,9 +49,7 @@ you.tages=Spring Boot
 
 
 
-创建 user 类，并用注解 @Component 来把它加入到容器。
-
-属性的值用注解 @Value 来获取配置中设置好的。
+创建 user 类，并用注解 @Component 来把它加入到容器。属性的值用注解 @Value 来获取配置中设置好的。
 
 ```java
 import org.springframework.beans.factory.annotation.Value;
