@@ -201,4 +201,10 @@ mvn mybatis-generator:generate
 
 ![image-20210126041642863](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126041642863.png)
 
+
+
+在启动类上配置数据访问层的扫描 （指定 Mapper 接口的路径）
+
+![image-20210126042641572](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126042641572.png)
+
 ![image-20210126041710831](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126041710831.png)
