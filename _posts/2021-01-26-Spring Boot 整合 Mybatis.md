@@ -3,7 +3,7 @@ title: Spring Boot 整合 Mybatis
 tags: SpringBoot
 ---
 
-##Spring Boot 整合 Mybatis
+## Spring Boot 整合 Mybatis
 
 继初试 Spring Boot 的基础上来继续开发。
 
