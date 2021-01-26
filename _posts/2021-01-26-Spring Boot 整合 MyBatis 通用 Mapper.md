@@ -1,6 +1,6 @@
 ---
 title: Spring Boot 整合 MyBatis 通用 Mapper
- tags: SpringBoot
+tags: SpringBoot
 ---
 
 ## Spring Boot 整合 MyBatis 通用 Mapper
