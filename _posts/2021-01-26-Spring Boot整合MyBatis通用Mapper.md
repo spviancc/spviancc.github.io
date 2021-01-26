@@ -1,15 +1,13 @@
 ---
 title: Spring Boot 整合 MyBatis 通用 Mapper
-tags: SpringBoot
+ tags: SpringBoot
 ---
-
-
 
 ## Spring Boot 整合 MyBatis 通用 Mapper
 
 tk.mybatis 是在 MyBatis 框架的基础上提供了很多工具，让开发更加高效。
 
-更多使用可以查看 [官网](https://github.com/abel533/Mapper/wiki) 
+更多使用可以查看 [官网](https://github.com/abel533/Mapper/wiki)
 
 
 
@@ -166,8 +164,6 @@ public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 ```bash
 mvn mybatis-generator:generate
 ```
-
-
 
 使用 maven 的插件管理
 

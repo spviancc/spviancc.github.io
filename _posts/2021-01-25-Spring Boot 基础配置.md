@@ -1,6 +1,6 @@
 ---
 title: Spring Boot 基础配置
-tags: SpringBoot
+ tags: SpringBoot
 ---
 
 ## 定制Banner
@@ -32,11 +32,11 @@ public static void main(String[] args) {
 
 ## 全局配置
 
-在 `src/main/resources` 目录下，Spring Boot 提供了一个名为 application.properties 的全局配置文件，可对一些默认配置的配置值进行修改，英语好的可以点击 [这里](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html) 去官网查看相关的配置。
+在 `src/main/resources` 目录下，Spring Boot 提供了一个名为 application.properties
+的全局配置文件，可对一些默认配置的配置值进行修改，英语好的可以点击 [这里](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
+去官网查看相关的配置。
 
-除了默认配置，我们还可以定义自己的配置值。   
-
-
+除了默认配置，我们还可以定义自己的配置值。
 
 ### 自定义属性值
 
@@ -124,8 +124,6 @@ test.name=spvian
 test.tages=Spring Boot
 ```
 
-
-
 创建对应的类，并修改 IndexController，除此之外还需要在启动类上加上 @EnableConfigurationProperties(TestConfig.class) 来启用该配置
 
 ```java
@@ -168,7 +166,7 @@ public class TestConfig {
 
 注解 `@ConfigurationProperties(prefix = "test")` 可有效绑定到此对象的属性的前缀
 
-  prefix属性的英文解释
+prefix属性的英文解释
 
 > The prefix of the properties that are valid to bind to this object. Synonym for value(). A valid prefix is defined by one or more words separated with dots (e.g. "acme.system.feature").
 > Returns:  the prefix of the properties to bind
@@ -177,9 +175,10 @@ public class TestConfig {
 
 ## 通过命令行设置属性值
 
-在运行 Spring Boot 的 jar 文件时，可以使用命令 `java -jar xxx.jar --server.port=8081` 来改变端口的值。这条命令等价于我们手动到 application.properties 中修改（如果没有这条属性的话就添加）server.port 属性的值为8081。
+在运行 Spring Boot 的 jar 文件时，可以使用命令 `java -jar xxx.jar --server.port=8081` 来改变端口的值。这条命令等价于我们手动到 application.properties
+中修改（如果没有这条属性的话就添加）server.port 属性的值为8081。
 
-如果不想项目的配置被命令行修改，可以在启动类中的main方法中进行如下设置： 
+如果不想项目的配置被命令行修改，可以在启动类中的main方法中进行如下设置：
 
 ```java
 public static void main(String[] args) {
@@ -193,7 +192,8 @@ public static void main(String[] args) {
 
 ## 使用xml配置
 
-Spring Boot 并不推荐我们使用 xml 配置，但如果出现不得不使用 xml 配置的情况，Spring Boot 允许我们在启动类里通过注解`@ImportResource({"classpath:xxxx.xml"})`来引入 xml 配置文件。
+Spring Boot 并不推荐我们使用 xml 配置，但如果出现不得不使用 xml 配置的情况，Spring Boot 允许我们在启动类里通过注解`@ImportResource({"classpath:xxxx.xml"})`来引入
+xml 配置文件。
 
 
 

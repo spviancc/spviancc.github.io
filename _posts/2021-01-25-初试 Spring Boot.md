@@ -1,9 +1,7 @@
 ---
-title: 初试 Spring Boot
+title: 初试 Spring Boot 
 tags: SpringBoot
 ---
-
-
 
 ## 初始化项目
 
@@ -17,13 +15,13 @@ tags: SpringBoot
 
 建好后需要等它加载依赖包，可能会有点慢
 
+
+
 ## 项目演示
 
 初始化完成后的目录结构
 
 ![image-20210125012446449](https://i.loli.net/2021/01/25/sBqA4IwHjfLgzce.png)
-
-
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: ToroiseGit的安装
+title: ToroiseGit的安装 
 tags: 教程
 ---
 
@@ -9,7 +9,9 @@ tags: 教程
 
 ### 简介
 
-git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本控制客户端，作为 Microsoft Windows 的外壳扩展实现。一个新的[版本管理](https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=54528924&ss_c=ssc.citiao.link)工具 Git，它本来是 Linux 下的基于Linux 内核的版本控制工具。
+git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本控制客户端，作为 Microsoft Windows
+的外壳扩展实现。一个新的[版本管理](https://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=54528924&ss_c=ssc.citiao.link)工具 Git，它本来是
+Linux 下的基于Linux 内核的版本控制工具。
 
 
 
@@ -25,6 +27,8 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 因为 TortoiseGit 只是一个程序壳,必须依赖一个 Git Core,所以安装前请确定已完成 git 安装和配置
 
+
+
 #### 先安装 TortoiseGit
 
 双击运行，然后一直 next 直到出现下面那张图，说明安装成功了
@@ -39,11 +43,15 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 ![image-20210122222738966](https://i.loli.net/2021/01/22/CMA1nlQwOgtszj5.png)
 
+
+
 如果忘记勾选可以去Settings中修改
 
 ![image-20210122223349598](https://i.loli.net/2021/01/22/DiLSZBC67pIMw9G.png)
 
 ![image-20210122223547883](https://i.loli.net/2021/01/22/TkWj4ozHp8Jm5I6.png)
+
+
 
 ### 配置
 
@@ -51,7 +59,7 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 #### 基本配置
 
-我是因为之前有用密钥使用过 git， 所以这里没有配置密码 
+我是因为之前有用密钥使用过 git， 所以这里没有配置密码
 
 ```json
 [user]
@@ -74,8 +82,6 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 
 ![image-20210122225031485](https://i.loli.net/2021/01/22/8jliwRK7hxsQDUE.png)
 
-
-
 记住保存私钥的位置，很重要
 
 这里以 GitHub 为例，复制公钥到 GitHub 上配置 SSH Keys
@@ -85,8 +91,6 @@ git 图形化软件，与 TortiseSVN 是同门。TortoiseGit 是一个Git 版本
 ![image-20210122230031855](https://i.loli.net/2021/01/22/lacwxyChzvX6nro.png)
 
 ![image-20210122230416788](https://i.loli.net/2021/01/22/Gs2DqgjYHpFZv7R.png)
-
-
 
 在 TortoiseGit 中选择 Pageant ，添加保存的私钥。默认不显示画面，会有个小图标在右下角。
 

@@ -1,11 +1,12 @@
 ---
-title: Spring Boot 使用 Thymeleaf
+title: Spring Boot 使用 Thymeleaf 
 tags: SpringBoot
 ---
 
 ## Spring Boot 使用 Thymeleaf
 
-Thymeleaf 是适用于 Web 和独立环境的现代服务器端 Java 模板引擎，能够处理 HTML，XML，JavaScript，CSS 甚至纯文本。详情见 [官方文档](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf) 。
+Thymeleaf 是适用于 Web 和独立环境的现代服务器端 Java 模板引擎，能够处理 HTML，XML，JavaScript，CSS
+甚至纯文本。详情见 [官方文档](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#introducing-thymeleaf) 。
 
 
 

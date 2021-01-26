@@ -1,7 +1,6 @@
 ---
-title: Spring Boot 整合 Mybatis PageHelper
+title: Spring Boot 整合 Mybatis PageHelper 
 tags: SpringBoot
-
 ---
 
 ## Spring Boot 整合 PageHelper
@@ -29,7 +28,5 @@ PageHelper 是 Mybatis 的分页插件，支持多数据库、多数据源。可
 修改 IndexController
 
 ![image-20210126043834668](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126043834668.png)
-
-
 
 ![image-20210126043912132](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126043912132.png)

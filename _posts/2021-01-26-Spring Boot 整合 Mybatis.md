@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 整合 Mybatis
+title: Spring Boot 整合 Mybatis 
 tags: SpringBoot
 ---
 
@@ -13,7 +13,7 @@ tags: SpringBoot
 
 ### 导入依赖
 
-不同版本的 Spring Boot 和 MyBatis 版本对应不一样，具体可查看 [官方文档](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+不同版本的 Spring Boot 和 MyBatis版本对应不一样，具体可查看 [官方文档](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 
 ![image-20210126005935711](https://raw.githubusercontent.com/spviancc/spviancc.github.io/master/assets/image-20210126005935711.png)
 
@@ -50,9 +50,7 @@ insert into `stu` (`id`, `name`, `age`, `sex`, `add_time`, `update_time`) values
 
 ```
 
-
-
- application.yml 的配置
+application.yml 的配置
 
 > 我这里把 application.properties 改为 application.yml ，
 
